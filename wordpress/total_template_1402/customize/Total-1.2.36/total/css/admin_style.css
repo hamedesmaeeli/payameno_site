@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'Vazir';
+	src: url('../fonts/Vazir.eot') format('eot'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.woff') format('woff');
+}
+
+h1,h2,h3,h4,h5,h6,ul,a,p,
+#adminmenu div.wp-menu-name,
+#adminmenu .wp-submenu a,
+#collapse-button .collapse-button-label,
+#customize-controls .customize-info,
+#customize-controls h3,
+.wp-core-ui .button,
+.wp-core-ui .button-secondary,
+.customize-control-title,
+input,
+select,
+.customize-control-checkbox label,
+.customize-control-radio label,
+.customize-control .attachment-media-view .button-add-media,
+.ht-implink,
+.wp-core-ui .button-link,
+#customize-controls .description,
+.onoffswitch-switch,
+#your-profile label+a,
+label,
+.chosen-container-multi .chosen-choices li.search-field input[type="text"],
+#wpadminbar .ab-label,
+textarea,
+.fixed .column-author,
+.fixed .column-date,
+.fixed .column-format,
+.fixed .column-links,
+.fixed .column-parent,
+.fixed .column-posts,
+.tablenav .one-page .displaying-num,
+#wpadminbar #wp-admin-bar-my-sites a.ab-item,
+.tools-privacy-policy-page span,
+.components-popover:not(.is-mobile).is-center .components-popover__content,
+.components-button.is-link,
+.components-button,
+.block-editor *,
+.block-editor :after,
+.block-editor :before,
+.components-modal__frame *,
+.components-modal__frame :after,
+.components-modal__frame :before,
+.store-address-container,
+.form-table td,
+.keyboard-interaction,
+.tag-generator-panel .control-box > fieldset legend,
+#contact-form-editor .contact-form-editor-panel fieldset legend,
+.woocommerce-reports-wide .postbox .chart-legend li strong,
+.woocommerce-reports-wrap .postbox .chart-legend li strong,
+.widefat *,
+.form-table th 
+{
+	font-family: 'Vazir' !important;
+}
+
+.star-rating .star{
+	font-family: dashicons !important;
+}
+
+#accordion-section-total-doc-section .accordion-section-title .button{
+	float: left !important;
+}
+
+.customize-pane-parent .control-section .accordion-section-title:before, #sub-accordion-panel-total_home_panel .control-section .accordion-section-title:before{
+	float: right;
+	margin-left: 5px;
+}
+
+.dashicons-admin-generic:before{
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+
+#clear-gallery{
+	float: left !important;
+}
